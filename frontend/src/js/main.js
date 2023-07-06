@@ -6,6 +6,8 @@ const userAdd = document.querySelector('#userAdd');
 const usernameInput = document.querySelector('#usernameInput');
 const telephoneInput = document.querySelector('#telephoneInput');
 
+window.location.replace('/frontend/src/index.html');
+
 export let users = [];
 
 const getUsers = () => {
