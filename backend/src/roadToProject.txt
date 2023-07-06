@@ -1,0 +1,17 @@
+/users   --> GET  --> fetch all users (pagination)                        --> done
+/users   --> POST  --> write to json file and respond:                    --> done
+
+    1. Body:
+        1. name
+        2. phoneNumber
+
+/users/:id  --> PUT(PATCH)  --> update specific user's credentials by id  --> done
+/users/:id   --> DELETE   --> remove from json file                       --> done
+
+
+/products   --> GET   --> fetch all profucts                              --> done
+/Products  --> POST  --> write to json file and respond                   --> done
+
+
+/orders/:userId  --> GET  --> fetch orders by user id                     --> done
+/orders/:userId   --> PATCH   --> update user's order                     --> done

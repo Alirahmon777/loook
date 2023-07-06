@@ -1,0 +1,113 @@
+[
+  {
+    "id": 3,
+    "productName": "Coca Cola 1.5L",
+    "litre": 1.5,
+    "price": 16000,
+    "count": 30,
+    "category": "drinks",
+    "image": "http://localhost:3000/images/cola-1-5.jpg"
+  },
+  {
+    "id": 8,
+    "productName": "Fanta 1.5L",
+    "litre": 1.5,
+    "price": 16000,
+    "count": 30,
+    "category": "drinks",
+    "image": "http://localhost:3000/images/fanta-1-5.jpg"
+  },
+  {
+    "id": 16,
+    "productName": "SOK 1L (o'rik)",
+    "litre": 1,
+    "price": 15000,
+    "count": 30,
+    "category": "drinks",
+    "image": "http://localhost:3000/images/sok-orik.jpg"
+  },
+  {
+    "id": 17,
+    "productName": "SOK 1L (ananas)",
+    "litre": 1,
+    "price": 15000,
+    "count": 30,
+    "category": "drinks",
+    "image": "http://localhost:3000/images/sok-ananas.png"
+  },
+  {
+    "id": 18,
+    "productName": "SOK 1L (APELSIN)",
+    "litre": 1,
+    "price": 15000,
+    "count": 30,
+    "category": "drinks",
+    "image": "http://localhost:3000/images/sok-apelsin.png"
+  },
+  {
+    "id": 23,
+    "productName": "Mineralka 1.5L bezgaz",
+    "litre": 1,
+    "price": 6000,
+    "count": 30,
+    "category": "drinks",
+    "image": "http://localhost:3000/images/mineral-bezgaz.jpg"
+  },
+  {
+    "id": 24,
+    "productName": "Mineralka 1.5L gaz",
+    "litre": 1,
+    "price": 6000,
+    "count": 30,
+    "category": "drinks",
+    "image": "http://localhost:3000/images/mineral-gaz.jpg"
+  },
+  {
+    "id": 25,
+    "productName": "Classic",
+    "price": 19000,
+    "count": 30,
+    "category": "burgers",
+    "image": "http://localhost:3000/images/burger-classik.jpg"
+  },
+  {
+    "id": 26,
+    "productName": "Beef Longer",
+    "price": 26000,
+    "count": 30,
+    "category": "burgers",
+    "image": "http://localhost:3000/images/burger-beeflonger.jpg"
+  },
+  {
+    "id": 27,
+    "productName": "Combo",
+    "price": 14000,
+    "count": 20,
+    "category": "combo",
+    "image": "http://localhost:3000/images/combo.jpg"
+  },
+  {
+    "id": 29,
+    "productName": "Fully Combo (spicy)",
+    "price": 24000,
+    "count": 20,
+    "category": "combo",
+    "image": "http://localhost:3000/images/combo-fully.jpg"
+  },
+  {
+    "id": 30,
+    "productName": "Mini Combo",
+    "price": 11000,
+    "count": 20,
+    "category": "combo",
+    "image": "http://localhost:3000/images/combo-mini.jpg"
+  },
+  {
+    "id": 32,
+    "productName": "Wicked Combo (wings)",
+    "price": 24000,
+    "count": 20,
+    "category": "combo",
+    "image": "http://localhost:3000/images/combo-wicked.jpg"
+  }
+]

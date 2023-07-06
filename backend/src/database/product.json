@@ -1,0 +1,171 @@
+[
+  {
+    "id": 28,
+    "productName": "Fully Combo (normal)",
+    "price": 24000,
+    "count": 20,
+    "category": "combo",
+    "image": "./"
+  },
+  {
+    "id": 31,
+    "productName": "Wicked Combo (strips)",
+    "price": 24000,
+    "count": 20,
+    "category": "combo",
+    "image": "./"
+  },
+  {
+    "id": 19,
+    "productName": "Mineralka 1L bezgaz",
+    "litre": 1,
+    "price": 5000,
+    "count": 30,
+    "category": "drinks",
+    "image": "./"
+  },
+  {
+    "id": 20,
+    "productName": "Mineralka 1L gaz",
+    "litre": 1,
+    "price": 5000,
+    "count": 30,
+    "category": "drinks",
+    "image": "./"
+  },
+  {
+    "id": 21,
+    "productName": "Mineralka 0.5L bezgaz",
+    "litre": 1,
+    "price": 4000,
+    "count": 30,
+    "category": "drinks",
+    "image": "./"
+  },
+  {
+    "id": 22,
+    "productName": "Mineralka 0.5L gaz",
+    "litre": 1,
+    "price": 4000,
+    "count": 30,
+    "category": "drinks",
+    "image": "./"
+  },
+  {
+    "id": 9,
+    "productName": "Fanta 400ML",
+    "litre": 0.4,
+    "price": 6000,
+    "count": 30,
+    "category": "drinks",
+    "image": "./"
+  },
+  {
+    "id": 10,
+    "productName": "Fanta 500ML",
+    "litre": 0.5,
+    "price": 7000,
+    "count": 30,
+    "category": "drinks",
+    "image": "./"
+  },
+  {
+    "id": 11,
+    "productName": "Sprite 0.5",
+    "litre": 0.5,
+    "price": 8000,
+    "count": 30,
+    "category": "drinks",
+    "image": "./"
+  },
+  {
+    "id": 12,
+    "productName": "Sprite 1L",
+    "litre": 1,
+    "price": 13000,
+    "count": 30,
+    "category": "drinks",
+    "image": "./"
+  },
+  {
+    "id": 4,
+    "productName": "Coca Cola 400ML",
+    "litre": 0.4,
+    "price": 6000,
+    "count": 30,
+    "category": "drinks",
+    "image": "./"
+  },
+  {
+    "id": 5,
+    "productName": "Coca Cola 500ML",
+    "litre": 0.5,
+    "price": 7000,
+    "count": 30,
+    "category": "drinks",
+    "image": "./"
+  },
+  {
+    "id": 6,
+    "productName": "Fanta 0.5",
+    "litre": 0.5,
+    "price": 8000,
+    "count": 30,
+    "category": "drinks",
+    "image": "./"
+  },
+  {
+    "id": 7,
+    "productName": "Fanta 1L",
+    "litre": 1,
+    "price": 13000,
+    "count": 30,
+    "category": "drinks",
+    "image": "./"
+  },
+  {
+    "id": 1,
+    "productName": "Coca Cola 0.5",
+    "litre": 0.5,
+    "price": 8000,
+    "count": 30,
+    "category": "drinks",
+    "image": "./"
+  },
+  {
+    "id": 2,
+    "productName": "Coca Cola 1L",
+    "litre": 1,
+    "price": 13000,
+    "count": 30,
+    "category": "drinks",
+    "image": "./"
+  },
+  {
+    "id": 13,
+    "productName": "Sprite 1.5L",
+    "litre": 1.5,
+    "price": 16000,
+    "count": 30,
+    "category": "drinks",
+    "image": "./"
+  },
+  {
+    "id": 14,
+    "productName": "Sprite 400ML",
+    "litre": 0.4,
+    "price": 6000,
+    "count": 30,
+    "category": "drinks",
+    "image": "./"
+  },
+  {
+    "id": 15,
+    "productName": "Sprite 500ML",
+    "litre": 0.5,
+    "price": 7000,
+    "count": 30,
+    "category": "drinks",
+    "image": "./"
+  }
+]

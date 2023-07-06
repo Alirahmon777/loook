@@ -1,0 +1,258 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  box-sizing: inherit;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+body {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.wrapper {
+  display: flex;
+}
+
+/* NAVBAR_SECTION */
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 22%;
+  min-height: 100vh;
+  max-height: 100vh;
+  height: 100%;
+  border-left: 5px solid red;
+  border-right: 5px solid red;
+}
+
+.navbar-top {
+  padding: 24px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  background-color: red;
+  box-shadow: -1px 2px 12px 0px red;
+}
+
+.navbar-top a {
+  display: inline-block;
+  text-decoration: none;
+}
+.navbar-top img {
+  display: block;
+}
+
+.navbar-main {
+  overflow: auto;
+  flex-grow: 1;
+  width: 100%;
+  background-color: #eeebdd;
+}
+
+.customers-list {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #eeebdd;
+}
+
+.customer-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-bottom: 2px solid red;
+  padding: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.customer-item:hover {
+  background-color: red;
+  color: white;
+}
+
+.customer-item:active {
+  border-color: black;
+}
+
+.active-user {
+  background-color: rgb(255, 89, 0);
+  color: white;
+}
+
+.customer-name {
+  display: inline-block;
+  font-size: 22px;
+}
+
+.customer-phone {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  align-self: flex-end;
+}
+
+.navbar-footer {
+  background-color: red;
+  height: 25%;
+  width: 100%;
+  padding: 18px 0 8px;
+}
+
+.navbar-footer form {
+  display: flex;
+  flex-direction: column;
+}
+.navbar-footer button,
+.navbar-footer input {
+  padding: 10px;
+  font-size: 22px;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+.navbar-footer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+  background-color: green;
+}
+
+/* MAIN_SECTION */
+
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-height: 100vh;
+  height: 100%;
+  width: 78%;
+}
+
+.main-headers {
+  display: flex;
+  align-items: center;
+  height: calc(10% + 4px);
+  width: 100%;
+  padding: 10px 25px;
+  background-color: orange;
+  border-bottom: 5px solid red;
+}
+
+.main-headers .customer-name {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 40px;
+}
+
+.cutomer-id-wrapper span {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#clientId {
+  color: darkred;
+  margin-left: 5px;
+}
+
+.main-orders {
+  overflow: auto;
+  flex-grow: 1;
+  height: 64.3%;
+  background-color: #ffc93c;
+  padding: 10px;
+}
+
+.orders-list {
+  overflow: auto;
+  display: flex;
+  overflow: auto;
+  width: 100%;
+  padding: 20px;
+}
+
+.order-item {
+  flex-direction: column;
+  margin-right: 20px;
+  border: 2px solid #ff5900;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  width: 230px;
+  flex-shrink: 0;
+}
+
+.order-item:hover {
+  box-shadow: 0 0 15px 0 #ff5900;
+}
+
+.order-item img {
+  display: block;
+  width: 100%;
+  height: 250px;
+}
+
+.order-item div {
+  display: flex;
+  justify-content: space-between;
+  background-color: orange;
+  padding: 15px;
+}
+
+.order-item span {
+  display: inline-block;
+  background-color: orange;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main-footer {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  background-color: orange;
+  border-top: 5px solid red;
+}
+
+.main-footer form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.main-footer select,
+.main-footer input,
+.main-footer button {
+  padding: 10px;
+  margin-bottom: 5px;
+  font-size: 22px;
+  outline: none;
+}
+.main-footer select {
+  padding: 12.2px;
+}
+
+.main-footer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  background-color: green;
+}

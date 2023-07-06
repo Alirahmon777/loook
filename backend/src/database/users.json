@@ -1,0 +1,68 @@
+[
+    {
+        "id": 6,
+        "name": "Bamblbee",
+        "phone": "+998974771177",
+        "orders": [
+            {
+                "id": 1,
+                "productId": 3,
+                "count": 1
+            },
+            {
+                "id": 3,
+                "productId": 8,
+                "count": 2
+            },
+            {
+                "id": 4,
+                "productId": 26,
+                "count": 1
+            },
+            {
+                "id": 5,
+                "productId": 32,
+                "count": 3
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "John",
+        "phone": "+998974771182",
+        "orders": [
+            {
+                "id": 2,
+                "productId": 18,
+                "count": 2
+            },
+            {
+                "id": 6,
+                "productId": 29,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Alirahmon",
+        "phone": "+998974771181",
+        "orders": [
+            {
+                "id": 7,
+                "productId": 26,
+                "count": 12
+            },
+            {
+                "id": 8,
+                "productId": 27,
+                "count": 36
+            },
+            {
+                "id": 9,
+                "productId": 32,
+                "count": 100
+            }
+        ]
+    }
+]

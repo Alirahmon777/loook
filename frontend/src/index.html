@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/output.css" />
+    <title>LOOK ORDER</title>
+  </head>
+  <body>
+    <div class="toaster">
+      <p class="text-lg toaster-text"></p>
+    </div>
+    <div class="wrapper">
+      <div class="navbar">
+        <div class="navbar-top">
+          <a href="#">
+            <img src="./assets/img/logo.png" alt="logo" width="170" />
+          </a>
+        </div>
+        <div class="navbar-main">
+          <ul class="customers-list"></ul>
+        </div>
+        <div class="navbar-footer">
+          <form id="userAdd">
+            <input
+              id="usernameInput"
+              type="text"
+              placeholder="username..."
+              required
+            />
+            <input
+              id="telephoneInput"
+              type="tel"
+              placeholder="telephone..."
+              required
+            />
+            <button>
+              <img
+                height="35"
+                width="50"
+                src="./assets/img/add-user.png"
+                alt="user plus-icon"
+              />
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="main">
+        <div class="main-headers">
+          <div class="cutomer-id-wrapper">
+            <span>client id:</span>
+            <span id="clientId"></span>
+          </div>
+          <h1 id="userHeader" class="customer-name"></h1>
+        </div>
+        <div class="main-orders">
+          <!--Tabs navigation-->
+          <!-- <div class="border-b border-gray-200 dark:border-gray-700">
+            <nav
+              class="flex space-x-2"
+              aria-label="Tabs"
+              role="tablist"
+              id="tabination"
+            ></nav>
+          </div> -->
+
+          <ul class="mt-3 flex gap-3 flex-wrap" id="tabination-body"></ul>
+        </div>
+        <div class="main-footer">
+          <form id="foodsForm">
+            <select id="foodsSelect" required></select>
+            <input id="foodsCount" type="number" placeholder="count" required />
+            <button type="submit">
+              <img
+                src="./assets/img/plus-math.png"
+                alt="plus-button"
+                height="30"
+                width="40"
+              />
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+    <script src="../../node_modules/preline/dist/preline.js"></script>
+  </body>
+</html>
